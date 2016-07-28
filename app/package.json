@@ -1,0 +1,30 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "description": "An example app",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izatop/npm-typescript.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "example",
+    "app"
+  ],
+  "author": "izatop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/izatop/npm-typescript/issues"
+  },
+  "homepage": "https://github.com/izatop/npm-typescript#readme",
+  "dependencies": {
+    "npm-typed-logger-example": "^0.1.0",
+    "rimraf": "^2.5.4"
+  }
+}

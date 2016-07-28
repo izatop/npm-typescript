@@ -1,0 +1,43 @@
+{
+  "name": "npm-typed-logger-example",
+  "version": "0.1.4",
+  "description": "Typed Logger to logging for logging to Writable streams.",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "index.js",
+    "dist/index.d.ts",
+    "dist/index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "watch": "tsc -w",
+    "test": "tape dist/*.spec.js",
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izatop/npm-typescript.git"
+  },
+  "keywords": [
+    "logger",
+    "typed",
+    "stream"
+  ],
+  "author": "izatop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/izatop/npm-typescript/issues"
+  },
+  "homepage": "https://github.com/izatop/npm-typescript#readme",
+  "dependencies": {
+    "rimraf": "^2.5.4",
+    "tape": "^4.6.0",
+    "@types/node": "^4.0.30",
+    "@types/tape": "^4.2.27"
+  },
+  "devDependencies": {
+    "typescript": "^2.1.0-dev.20160728"
+  }
+}
