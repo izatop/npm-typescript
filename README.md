@@ -1,4 +1,4 @@
-# Install
+# Usage
 
-`npm install npm-typescript-logger-example`
+See `app` and `logger` directories.
 
