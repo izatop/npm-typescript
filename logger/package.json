@@ -1,7 +1,7 @@
 {
   "name": "npm-typed-logger-example",
-  "version": "0.1.4",
-  "description": "Typed Logger to logging for logging to Writable streams.",
+  "version": "0.1.7",
+  "description": "An example package with typed Logger for log to Writable stream.",
   "main": "index.js",
   "types": "dist/index.d.ts",
   "files": [
